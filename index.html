@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bizpro - Creative Business</title>
+    <style>
+
+
+.wrap{
+position: relative;
+width: auto;
+
+
+}
+.navbar {
+    background-color:white;
+    position: absolute;
+    list-style-type: none;
+    width: 100%;     
+    display: flex;
+    gap: 30px;
+    text-align: center;
+    justify-content: right;
+    padding-right: 5%;
+    color: gray;
+    
+
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 50;
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+}
+
+.navbar ul li {
+    padding: 14px 20px;
+}
+
+.navbar ul li a {
+    color: #ffcc00; 
+    font-size: 18px;
+    display: block;
+}
+div{
+
+padding-left: 20px;
+
+}
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        header {
+            background-image:  url('./lees.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            color: white;
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        header h1 {
+            font-size: 2rem;
+            margin-left: 5px;
+            padding: 10px;
+            position: absolute;
+            top: 50%;
+            left: 100px
+            
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+            padding: 10px;
+            position: absolute;
+            top: 60%;
+            left: 100px
+        }
+
+        header a {
+            padding: 10px 20px;
+            background: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            padding: 10px;
+            position: absolute;
+            top: 75%;
+            left: 110px
+        }
+
+        .features {
+            display: flex;
+            justify-content: space-around;
+            padding: 50px 0;
+            text-align: center;
+             justify-content: center;
+            flex-wrap: wrap;
+            text-align: center;
+    transition: border-color 0.3s ease;
+            
+        }
+        .features-container{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            justify-content: center;
+            
+            
+        }
+.icon{
+    justify-content: center;
+    font-size: 24px;
+    align-items: center;
+    display: flex;
+    
+}
+        
+   .feature-box {
+            text-align: center;
+            max-width: 250px;
+            border-radius: 10px;
+            width: 250px;
+            padding: 25px;
+            margin: 20px;
+            background-color: ghostwhite;
+   }
+            .feature-box:hover {
+            background-color: rgb(62, 62, 62);
+            color:white;
+            cursor: pointer;
+            
+        }
+            
+            
+        .feature-box img {
+            width: 50px;
+            height: 50px;
+            margin-bottom: 20px;
+            display: flex ;
+            align-items: center;
+            text-align: center;
+            position: relative;
+            justify-content: center;
+        }
+
+        .feature-box h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        .feature-box p {
+            font-size: 1rem;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <li><a href="#" class="active">HOME <span class="caret">▼</span></a></li>
+        <li><a href="#" class="active">About<span class="caret">▼</span></a></li>
+        <li><a href="#" class="active">Resume<span class="caret">▼</span></a></li>
+        <li><a href="#" class="active">Portfolio<span class="caret">▼</span></a></li>
+        <li><a href="#" class="active">Blog<span class="caret">▼</span></a></li>
+        <li><a href="#" class="active">Contact <span class="caret">▼</span></a></li>
+
+
+        
+    </ul>
+    <div class="search-container">
+        <input type="text" placeholder="Search..." name="search">
+        <button type="submit">Go</button>
+    </div>
+</nav>
+    <header>
+            
+        <div>
+            
+            <h1> I AM CREATIVE. </h1>
+            <p> I am creative because we have thinking that I can make things possible .</p>
+            <a href="#">Learn More</a>
+        </div>
+    </header>
+    
+    <section class="features-container">
+        <div class="feature-box">
+            <img src="./ss.jpg" alt="Clean Code Icon">
+            <h3>Clean Code</h3>
+            <p>We uses code that is clean and understandale and test.</p>
+        </div>
+        <div class="feature-box">
+            <img src="./2s1.jpg" alt="Modern Design Icon">
+            <h3>Modern Design</h3>
+            <p>The idea of elements to highlight the essential aspects of a design.</p>
+        </div>
+        <div class="feature-box">
+            <img src="./fer.jpg" alt="Fast and Smooth Icon">
+            <h3>Fast & Smooth</h3>
+            <p>Attributes to load JavaScript files asynchronously, so they don't block the rendering of the page.</p>
+        </div>
+        <div class="feature-box">
+            <img src="./rets.jpg" alt="Brand Identify Icon">
+            <h3>Brand Identify</h3>
+            <p>Brand includes symbols, icons, or text. It’s often the most recognizable part of a brand’s identity.
+                .</p>
+        </div>
+        <div class="feature-box">
+            <img src="./pol.jpg" alt="Free Updates Icon">
+            <h3>Free Updates</h3>
+            <p>Ensure the software works with new hardware or operating system versions.</p>
+        </div>
+        <div class="feature-box">
+            <img src="./her.jpg" alt="Free Support Icon">
+            <h3> Free Support</h3>
+            <p> Updates and patches to improve functionality and security Assistance provided through customer support hotlines.</p>
+        </div>
+    </section>
+
+</body>
+</html>
